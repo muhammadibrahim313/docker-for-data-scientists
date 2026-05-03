@@ -1,5 +1,5 @@
 # Iris Classifier API (Dockerized)
-
+[![Build and Deploy ML API](https://github.com/muhammadibrahim313/docker-for-data-scientists/actions/workflows/deploy.yml/badge.svg)](https://github.com/muhammadibrahim313/docker-for-data-scientists/actions/workflows/deploy.yml)
 A containerized ML API that predicts Iris flower species.
 
 ## Live Demo
