@@ -16,11 +16,11 @@ class IrisInput(BaseModel):
     sepal_width: float
     petal_length: float
     petal_width: float
-
 @app.get("/")
 def home():
-    return {"status": "ok", "message": "Iris Classifier API is running v2"}
+    return {"status": "ok", "message": "Iris Classifier API v2 - Auto deployed!"}
 
+    
 @app.post("/predict")
 def predict(data: IrisInput):
     features = [[data.sepal_length, data.sepal_width, data.petal_length, data.petal_width]]
