@@ -19,7 +19,7 @@ class IrisInput(BaseModel):
 
 @app.get("/")
 def home():
-    return {"status": "ok", "message": "Iris Classifier API is running v2 test"}
+    return {"status": "ok", "message": "Iris Classifier API is running v2"}
 
 @app.post("/predict")
 def predict(data: IrisInput):
